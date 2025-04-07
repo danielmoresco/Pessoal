@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pagina Senai</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloundflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+
+	<style type="text/css">
+		body {
+			font-family: 'Arial',  sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f4f4f4;
+			color: #333;
+		}
+
+       .header {
+       	background-color: #118c2b;
+       	color: #FFFFFF;
+       	padding: 20px;
+       	text-align: center;
+       	font-size: 24px;
+       	font-weight: bold;
+       }
+
+       .nav{
+       	   background-color: #026918;
+       	   overflow: hidden;
+       }
+
+       .nav a {
+       	float: left;
+       	display: block;
+       	color: #FFFFFF;
+       	text-align: center;
+       	padding: 14px 20px;
+       	text-decoration: none;
+       	font-size: 16px;
+       }
+
+       .nav a:hover {
+       	background-color: #000000;
+       	color: #FFFFFF;
+       }
+
+	    .content {
+	    	padding: 20px;
+	    	background-color: #FFFFFF;
+	    	margin: 20px;
+	    	border-radius: 8px;
+	    	box box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	    } 
+
+	    .section {
+	    	margin-bottom: 30px;
+	    }
+
+	    .section h2 {
+	    	color: ##118c2b;
+	    	border-bottom: 2px solid #026918;
+	    	padding-bottom: 10px;
+	    }
+
+          .section img {
+          	max-width: 100%;
+          	padding: 10px;
+          	margin: 10px 0;
+          	border: 1px solid #CCC;
+          	border-radius: 4px;          
+          }
+
+          .contact-form input, .contact-form textarea {
+          width: 100%;
+          padding: 10px;
+          margin: 10px 0;
+          border: 1px solid #CCC;
+          border-radius: 8px;
+          }
+
+          .contact-form button {
+          	background-color: #026918;
+          	color: #FFFFFF;
+          	padding: 10px 20px;
+          	border: none;
+          	border-radius: 4px;
+          	cursor: pointer;
+          	font-size: 16px;
+          }
+
+          .contact-form button:hover {
+          	background-color: #004000;
+          }
+
+          .contact-info {
+          margin-top: 20px;
+          }
+
+          .contact-info p {
+          	margin: 5px 0;
+          }
+      
+          	
+
+	    .footer {
+          background-color: #026918;
+          color: #FFFFFF;
+          padding: 10px;
+          position: relative; /* Alterado de fixed para relative */
+          bottom: 0;
+          width: 100%;
+          text-align: left;
+          } 
+
+
+	    .footer .copy {
+	    	font-size: 14px;
+	    }
+
+	    .footer .contact-box {
+	    	background-color: #026918;
+	    	padding: 30px;
+	    	text-align: right;
+
+	    }
+
+	    .footer .contact-box p {
+	    	margin: 5px 0;
+	    	font-size: 16px;
+	    }
+
+	    .footer .contact-box i {
+	    	margin-right: px;
+	    	text-align: l;
+	    }
+
+	    table{
+             width: 94%;
+             border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid block;
+            padding: 11px;
+            text-align: left;
+        }
+        th{
+        background-color: #f2f2f2;
+        }
+
+</style>
+
+
+      <div class="header">
+           <h1> Bem-vindo a loja Estilo Esportivo</h1>
+      </div>
+
+      <div class="nav">	
+	<a href="#Home"><i class="fas fa-home"></i> Home</a>
+	<a href="#sobre"><i class="fas fa-info-circle"></i> sobre</a>
+	<a href="#contato"><i class="fas fa-envelope"></i> contato</a>
+      </div>
+
+<div class="content">
+	<h1> Bem-vindo a nossa página!</h1>
+
+		<p><strong>Esta página demonstra a venda de produtos esportivos.</strong></p>  
+
+		<p3>Nossa loja oferece uma vasta seleção de camisas para todos os estilos e ocasiões! Se você procura conforto, qualidade
+    	 e peças versáteis, está no lugar certo. Trabalhamos com modelos variados, desde opções básicas para o dia a dia até
+    	 camisas mais sofisticadas para eventos especiais. Com tecidos de alta qualidade e designs modernos, garantimos que 
+    	você encontre a camisa perfeita para compor o seu look. Além disso, nossos preços são acessíveis e o atendimento é 
+        sempre pensado para proporcionar a melhor experiência de compra. Venha conferir as novidades e leve para casa camisas que
+        vão se tornar suas favoritas! </p3>
+</div>
+
+<!-- sobre-->
+
+<div id="sobre" class="section">
+	<h2> Sobre nossa loja </h2>
+    <p> Nossa loja oferece várias camisa e tênis de futsal, fique com a tabela de preços!!</p>
+	<div>
+	<h2> Camisas de Times brasileiros </h2>
+</div>
+
+    <table border=1px> 
+	<tr>
+	   <th>Time</th>
+
+	   <th>Tamanho</th>
+	   <th>Preço</th>
+  </tr>
+
+  <tr>
+	   <td>Corinthians</td>
+	   <td>M, G e GG</td>
+	   <td>80,00 R$</td>
+  </tr>
+
+  <tr>
+       <td>Palmeiras</td>
+       <td>P e G</td>
+       <td>80,00 R$</td>  
+  </tr>
+
+  <tr>
+  	   <td>Flamengo</td>
+  	   <td>M, GG e EG</td>
+  	   <td>80,00 R$</td>
+  </tr>
+
+  <tr>
+
+  	   <td>Cruzeiro</td>
+	   <td>G e GG</td>
+	   <td>80,00 R$</td>
+  </tr>
+
+  <tr>
+       <td>Santos</td>
+       <td>P, G e GG</td>
+       <td>80,00 R$</td>  
+  </tr>
+
+  <tr>
+  	   <td>São Paulo</td>
+  	   <td>G e GG</td>
+  	   <td>80,00 R$</td>
+  	   
+  </tr>
+</table><br>
+
+<img src="C:/xampp/htdocs/daniel/assets/imagem/camisas de time B.webp" alt="loja" width="359"> <img src="C:/xampp/htdocs/daniel/assets/imagem/camisas de time A.jpg" alt="loja" width="203">
+
+<div>
+	<h2> Camisas de Times europeus </h2>
+</div>
+
+<table border=1px> 
+	<tr>
+	   <th>Time</th>
+
+	   <th>Tamanho</th>
+	   <th>Preço</th>
+  </tr>
+
+  <tr>
+	   <td>Arsenal</td>
+	   <td>P, M e G</td>
+	   <td>85,00 R$</td>
+  </tr>
+
+  <tr>
+       <td>Real Madrid</td>
+       <td>M, G e GG</td>
+       <td>85,00 R$</td>  
+  </tr>
+
+  <tr>
+  	   <td>Barcelona</td>
+  	   <td>P, M e G</td>
+  	   <td>85,00 R$</td>
+  </tr>
+
+  <tr>
+
+  	   <td>PSG</td>
+	   <td>M, G e GG</td>
+	   <td>85,00 R$</td>
+  </tr>
+
+  <tr>
+       <td>Juventus</td>
+       <td>P e GG</td>
+       <td>85,00 R$</td>  
+  </tr>
+
+  <tr>
+  	   <td>Manchester United</td>
+  	   <td>M, G e GG</td>
+  	   <td>85,00 R$</td>
+  	   
+  </tr>
+</table><br>
+
+<img src="C:/xampp/htdocs/daniel/assets/imagem/camisas de time C.jpg" alt="loja" width="225"><img src="C:/xampp/htdocs/daniel/assets/imagem/camisas de time D.jpg" alt="loja" width="284">
+
+
+<div>
+	<h2> Camisas de marcas </h2>
+</div>
+<table border=1px> 
+	<tr>
+	   <th>Marca</th>
+
+	   <th>Tamanho</th>
+	   <th>Preço</th>
+  </tr>
+
+  <tr>
+	   <td>Nike</td>
+	   <td>P, M, G, GG</td>
+	   <td>150,00 R$</td>
+  </tr>
+
+  <tr>
+       <td>Umbro</td>
+       <td>M, G e GG</td>
+       <td>110,00 R$</td>  
+  </tr>
+
+  <tr>
+  	   <td>Hugo Boss</td>
+  	   <td>P, M e G</td>
+  	   <td>170,00 R$</td>
+  </tr>
+
+  <tr>
+
+  	   <td>Adidas</td>
+	   <td>M, G, GG e EG</td>
+	   <td>100,00 R$</td>
+  </tr>
+
+  <tr>
+       <td>louis vuitton</td>
+       <td>P e GG</td>
+       <td>190,00 R$</td>  
+  </tr>
+
+  <tr>
+  	   <td>Gucci</td>
+  	   <td>M, G e GG</td>
+  	   <td>200,00 R$</td>
+  	   
+  </tr>
+</table><br>
+	<img src="C:/xampp/htdocs/daniel/assets/imagem/camisas nike.webp" alt="camisas" width="300"><img src="C:/xampp/htdocs/daniel/assets/imagem/camisas gucci.jpg" alt="loja" width="300">
+	<div>
+	<h2> Tênis de futsal </h2>
+</div>
+<table border=1px> 
+	<tr>
+	   <th>Marca</th>
+
+	   <th>Tamanho</th>
+	   <th>Preço</th>
+  </tr>
+
+  <tr>
+	   <td>Umbro PRO5 dragon</td>
+	   <td>38,39,40,41,42</td>
+	   <td>700,00 R$</td>
+  </tr>
+
+  <tr>
+       <td>Umbro PRO5 br</td>
+       <td>38,39,40,41,42</td>
+       <td>640,00R$</td>  
+  </tr>
+
+  <tr>
+  	   <td>Umbro PRO5 preta/laranja</td>
+  	   <td>38,39,40,41,42</td>
+  	   <td>630,00 R$</td>
+  </tr>
+
+  <tr>
+
+  	   <td>Umbro PRO5 polar</td>
+	   <td>38,39,40,41,42</td>
+	   <td>595,00 R$</td>
+  </tr>
+
+  <tr>
+       <td>Umbro PRO5 preta</td>
+       <td>38,39,40,41,42</td>
+       <td>730,00 R$</td>  
+  </tr>
+
+  <tr>
+  	   <td>Umbro PRO5 polar magma</td>
+  	   <td>38,39,40,41,42</td>
+  	   <td>694,00 R$</td>
+</tr>
+</table><br>
+
+<video width="250" controls>
+	<source src="C:/xampp/htdocs/daniel/assets/video/pro5 dragon.mp4" type="video/mp4">
+     seu navegador nao suporta videos
+</video>
+<video width="250" controls>
+	<source src="C:/xampp/htdocs/daniel/assets/video/pro5 preta.mp4" type="video/mp4">
+     seu navegador nao suporta videos
+</video>	
+     
+</div>
+
+
+<!-- /sobre -->
+
+<!-- Contato -->
+
+<div id="contato" class="section">
+	<h2> Contato</h2>
+	<p> Entre Em contato para maiores informações</p>
+
+	<form class="contact-form">
+		<input type="text" name="nome" placeholder="Seu nome"required>
+		<input type="email" name="email" placeholder="Seu email"required>
+          <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+          <button type="submit"> enviar mensagem</button>
+     </form>
+</div>
+
+<!-- Contato -->
+
+<!-- info-->
+
+<div class="footer">
+<div class="copy">
+<p>&copy; 2025 - Estilo Esportivo Videira-SC</p>
+</div>
+
+
+  <div class="contact-box">
+  	<p><i class="fas fa-envelope">email: estiloesportivo@gmail.com</i></p>
+	<p><i class="fas fa-phone">fone: (49) 4002-8922</i></p>
+	<p><i class="fas fa-map-marker-alt"> Endereço: rua sand swors, br 157 - Videira-SC</i></p>
+</div>
+<!-- /info -->
+
+
+</head>
+<body>
